@@ -1,0 +1,247 @@
+/* =Base
+==========================================*/
+body {
+	line-height: 1.6;
+}
+
+
+/* =Headers
+==========================================*/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	text-rendering: optimizelegibility;
+	font-weight: 500;
+	a {
+		text-decoration: none;
+	}
+}
+
+h1, .h1 {
+	font-size: 2.5em;
+	line-height: 1.333em;
+}
+
+h2, .h2 {
+	font-size: 1.75em;
+	line-height: 1.4em;
+	margin-bottom: 0.375em;
+}
+
+h3, .h3 {
+	font-size: 1.125em;
+}
+
+h4, .h4 {
+	font-size: 1.1em;
+	font-weight: 700;
+}
+
+h5, .h5 {
+	font-size: 0.846em;
+	line-height: 2.09em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+/* =Content
+==========================================*/
+p {
+  -ms-word-break: keep-all;
+   -ms-word-wrap: keep-all;
+      word-break: keep-all;
+  -webkit-hyphens: none;
+     -moz-hyphens: none;
+          hyphens: none;
+  -webkit-font-feature-settings: "liga", "dlig";
+     -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+       -o-font-feature-settings: "liga", "dlig";
+          font-feature-settings: "liga", "dlig";
+}
+
+.content--intro {
+	font-size: 1.2em;
+	font-weight: $bold;
+}
+
+
+/* =Accessible skip to content
+==========================================*/
+.content--skip-to,
+.content--skip-to:visited {
+	height: 1px;
+	left: -999px;
+	overflow: hidden;
+	position: absolute;
+	top: auto;
+	width: 1px;
+	z-index: -999;
+	&:focus,
+	&:active {
+		background-color: hotpink;
+		background-color: rgba(hotpink, .8);
+		color: $white;
+		left: 0;
+		height: auto;
+		margin: 0;
+		padding: 1.5em;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 999;
+	}
+}
+
+
+/* =Captions
+==========================================*/
+.wp-caption {
+	background-color: darken($white, 3%);
+	border: 1px solid darken($white, 10%);
+	padding: .5em;
+	margin: 1em 0 2em;
+	max-width: 100%;
+	img {
+		display: block;
+		height: auto !important;
+		width: 100%;
+	}
+	&.alignleft {
+		@media only screen and (min-width: 650px) {
+			float: left;
+			margin-right: 2em;
+			max-width: 50%;
+		}
+	}
+	&.alignright {
+		@media only screen and (min-width: 650px) {
+			float: right;
+			margin-left: 2em;
+			max-width: 50%;
+		}
+	}
+}
+
+.wp-caption-text {
+	color: $text-color;
+	margin: 0;
+	padding: 1em 0;
+}
+
+
+/* =HRs - We don't really use these though
+==========================================*/
+hr {
+	clear: both;
+	display: block;
+	margin: 2em 0;
+}
+
+
+/* =Lists
+==========================================*/
+ul,
+ol {
+
+
+	ul,
+	ol {
+
+	}
+
+	> li {
+
+		ul {
+			> li {
+
+			}
+		}
+	}
+
+}
+
+li {
+	font-size: 1em;
+	margin-bottom: .5em;
+	position: relative;
+}
+
+ul {
+	padding-left: 1.5em;
+
+	> li {
+
+	}
+
+}
+
+ol {
+
+	> li {
+
+	}
+
+}
+
+.list {
+
+}
+
+.list--sitemap {
+	li {
+
+	}
+	a {
+
+	}
+	a:visited {
+
+	}
+}
+
+
+/* =Blockquotes
+==========================================*/
+blockquote {
+
+	p {
+
+	}
+
+	footer {
+
+	}
+
+	cite {
+
+	}
+
+}
+
+
+/* =Code and Pre
+==========================================*/
+pre {
+	background-color: lighten($black, 20%);
+	padding: .4em 1em;
+}
+
+code {
+	background-color: lighten($black, 20%);
+	color: $white;
+	font-size: .9em;
+	padding: .4em;
+}
+
+
+/* =Text Tricks
+==========================================*/
+.screen-reader-text {
+	display: block;
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.hide-text {
+	display: none;
+}

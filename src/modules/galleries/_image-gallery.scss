@@ -1,0 +1,55 @@
+/* =Page footer gallery styling
+==========================================*/
+.gallery--wrap {
+
+}
+
+.gallery--image {
+	background-attachment: inherit;
+	padding-bottom: 42%; // Aspect ratio 7:3 ( 3 / 7 * 100 )
+}
+
+.gallery-caption {
+	font-size: .85em;
+	text-align: left;
+}
+
+
+/* =WP Gallery Styling
+==========================================*/
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	br {
+		display: none;
+	}
+}
+.gallery-item {
+	display: block;
+	margin: 1.5%;
+	text-align: center;
+
+	img {
+		height: auto;
+	}
+
+	.gallery-columns-2 &,
+	.gallery-columns-3 &,
+	.gallery-columns-4 & {
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 37.5em) {
+
+	@import 'image-gallery_600';
+
+}
+
+@media only screen and (min-width: 50em) {
+
+	@import 'image-gallery_800';
+
+}

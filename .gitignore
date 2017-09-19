@@ -1,0 +1,37 @@
+# Ignore gulp
+node_modules
+npm-debug.log
+
+# Ignore wordpress framework
+public/*.*
+public/wp-admin/*
+public/wp-includes/*
+public/wp-content/*.*
+public/wp-content/themes/*
+public/wp-content/languages/*
+public/wp-content/plugins/*
+public/wp-content/uploads/*
+public/wp-content/upgrade/*
+
+# Ignore codekit
+*.scssc
+*.codekit
+
+# Track these files.
+!.gitignore
+!package.json
+!gulpfile.js
+!public/go-live-checklist.php
+!public/wp-config.php
+!public/.htaccess
+!public/wp-content/plugins/logs-search
+
+# If using multisite, this file needs kept hold of.
+!public/wp-content/sunrise.php
+
+# Themes
+!public/wp-content/themes/cargo-base
+
+
+# Injected ignores here
+public/upload

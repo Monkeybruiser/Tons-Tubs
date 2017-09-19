@@ -1,0 +1,39 @@
+.nav--primary {
+
+}
+
+.nav--primary--toggle,
+.nav--primary--toggle:visited {
+	background-color: $brand-primary;
+	display: block;
+	padding: .8em;
+	text-align: center;
+	text-decoration: none;
+
+	&:hover {
+		background-color: darken($brand-primary, 10%);
+	}
+
+}
+
+.nav--primary--links {
+	display: none;
+	padding: 0 0 1px; // stop visual jump from slideIn
+
+	li {
+
+	}
+
+	a,
+	a:visited {
+
+	}
+
+}
+
+
+@media only screen and (min-width: 50em) {
+
+	@import 'nav-primary_800';
+
+}

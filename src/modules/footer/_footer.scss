@@ -1,0 +1,51 @@
+.footer {
+	clear: both;
+	display: block;
+}
+
+
+/* =Copyright and Cargo Logo
+==========================================*/
+.copyright,
+.site-by {
+	font-size: .875em;
+}
+
+.copyright {
+
+}
+
+.site-by {
+
+}
+
+.cargo-logo,
+.cargo-logo:visited {
+	background-image: url('../images/svgs/cargo-logo.svg');
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 25px;
+	margin-left: .3em;
+	position: relative;
+	text-align: left;
+	text-indent: -999em;
+	text-transform: uppercase;
+	top: -2px;
+	width: 60px;
+
+	.no-svg & {
+		background-image: url('../images/cargo-logo.png')
+	}
+
+	&:hover,
+	&:focus {
+
+	}
+
+}
+
+@media only screen and (min-width: 50em) {
+
+	@import 'footer_800';
+
+}

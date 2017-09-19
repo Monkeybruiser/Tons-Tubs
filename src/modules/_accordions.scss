@@ -1,0 +1,36 @@
+.accordion {
+	display: block;
+	padding: 0 0 1px;
+}
+
+.accordion--toggle,
+.accordion--toggle:visited {
+	background-image: url('../images/svgs/icon-arrow-right.svg');
+	background-position: right top;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #959595;
+	color: #959595;
+	display: block;
+	font-size: .938em;
+	font-weight: $semi;
+	margin-top: 1em;
+	padding: .2em 2em .2em 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	@include transition(all $transition-time $easing);
+
+	.no-svg & {
+		background-image: url('../images/icon-arrow-right.png');
+	}
+
+	&:hover {
+		border-color: $brand-secondary;
+		color: $brand-secondary;
+	}
+
+}
+
+.accordion--content {
+	display: none;
+	padding: 1em 0;
+}

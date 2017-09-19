@@ -1,0 +1,12 @@
+.logo-list {
+	align-items: center;
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: $strip-padding 0;
+}
+
+.logo-list--block {
+	display: block;
+}

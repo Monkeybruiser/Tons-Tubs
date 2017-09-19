@@ -1,0 +1,30 @@
+%btn {
+	border: 0;
+	color: $text-color;
+	cursor: pointer;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1em;
+	padding: .6em;
+	position: relative;
+
+	&:hover,
+	&:focus {
+		color: $text-color;
+		text-decoration: underline;
+	}
+
+	&:active {
+
+	}
+
+}
+
+.button-wrap {
+
+	a,
+	a:visited {
+		@extend %btn;
+	}
+
+}

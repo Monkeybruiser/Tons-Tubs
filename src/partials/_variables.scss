@@ -1,0 +1,73 @@
+/* =Colour Variables
+==========================================*/
+$alert-yellow:			#ebe16f;
+$alert-red:				#fbe3e4;
+$alert-green:			#e6efc2;
+$alert-blue:			#d5edf8;
+
+$black:					#323944;
+$white:					#fff;
+
+$text-color:			#5c6b80;
+
+$brand-primary:			#eceee5;
+$brand-secondary:		#eceee5;
+$brand-tertiary:		#eceee5;
+
+$link-color:        	$brand-primary;
+$link-hover:        	darken($link-color, 9%);
+
+
+/* =Social colours
+==========================================*/
+$social-facebook:		#4d70a8;
+$social-twitter:		#01baf2;
+$social-google:			#e3401d;
+$social-linkedin:		#1687b1;
+
+
+/* =Wrap Width
+==========================================*/
+$wrap-restrict:			75.000em; // 1200px
+$wrap-break:			$wrap-restrict + 3em;
+
+
+/* =Strip Padding
+==========================================*/
+$strip-padding:			2.125em;
+
+
+/* =Site Transitions
+==========================================*/
+$transition-time:		.25s;
+$easing: 				ease-in-out;
+
+
+/* =Radius
+==========================================*/
+$radius:				.4em;
+
+
+/* =Font Families
+==========================================*/
+// font stacks
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+$fancy-sans:		$sans-serif;
+$fancy-serif:		$serif;
+
+
+/* =Font weights in use from Typekit or Google Fonts
+
+Thin				- 100
+Regular				- 100
+Regular italic		- 100
+Bold				- 100
+
+==========================================*/
+$light:				100;
+$regular:			400;
+$semi: 				500;
+$italic:			400;
+$bold:				700;
