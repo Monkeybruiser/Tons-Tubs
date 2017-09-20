@@ -9,3 +9,15 @@ html {
 *:after {
 	box-sizing: inherit;
 }
+
+
+
+/* =Background
+==========================================*/
+body {
+	background-attachment: fixed;
+	background-image: url('../images/img-bg.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

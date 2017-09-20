@@ -54,7 +54,7 @@ $col-groups: (2, 3, 4, 5, 6, 8, 12);
 $gutter-width: 			2.500em;
 
 // Breakpoints
-$breakpoint-small: 		480px;
+$breakpoint-small: 		500px;
 $breakpoint-medium: 	700px;
 $breakpoint-large: 		900px;
 $breakpoint-xl: 		1000px;
@@ -367,7 +367,7 @@ $breakpoint-xxl: 		1100px;
         width: percentage(3/4);
       }
     }
-    
+
   }
 
   // Centers the column in the grid and clears the row of all other columns
