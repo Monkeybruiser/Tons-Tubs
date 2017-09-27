@@ -4,11 +4,11 @@
 
 ?>
 
-<section class="">
+<section class="banner">
 
     <div class="wrap">
 
-        <h1>Have we got the tubs for you</h1>
+        <h1 class="content--title">Have we got the tubs for you</h1>
 
         <div class="">
             <img alt="#" src="http://placehold.it/300x200" />

@@ -21,3 +21,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.site-wrap {
+	background-color: $white;
+	box-shadow: 0 0 2em $black;
+	width: 100%;
+
+	@media only screen and (min-width: 50em) {
+		margin: 0 auto;
+		max-width: $wrap-break + 2em;
+		width: 90%;
+	}
+
+}
