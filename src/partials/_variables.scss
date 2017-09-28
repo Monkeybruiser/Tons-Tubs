@@ -8,7 +8,7 @@ $alert-blue:			#d5edf8;
 $black:					#323944;
 $white:					#fff;
 
-$text-color:			#5c6b80;
+$text-color:			$black;
 
 $brand-primary:			#eceee5;
 $brand-secondary:		#eceee5;
@@ -28,7 +28,7 @@ $social-linkedin:		#1687b1;
 
 /* =Wrap Width
 ==========================================*/
-$wrap-restrict:			75.000em; // 1200px
+$wrap-restrict:			75em; // 1200px
 $wrap-break:			$wrap-restrict + 3em;
 
 

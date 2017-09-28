@@ -1,0 +1,19 @@
+.banner {
+	display: block;
+	position: relative;
+}
+
+.content--title {
+	font-family: $fancy;
+	font-size: 4em;
+}
+
+.content--title {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: url('../images/img-bg.png');
+    background-position: center;
+    background-attachment: fixed;
+    color: $text-color;
+    text-align: center;
+}
