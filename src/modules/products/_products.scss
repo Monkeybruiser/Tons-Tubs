@@ -1,0 +1,27 @@
+.product {
+    display: block;
+    margin: 0 0 $strip-padding * 2;
+}
+
+.product--image {
+    display: block;
+
+    &.bg-image {
+
+        &:before {
+            content: '';
+            display: block;
+            padding-bottom: 60%;
+        }
+
+    }
+
+}
+
+.product--title {
+
+}
+
+.product--desc {
+
+}
