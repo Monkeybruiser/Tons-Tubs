@@ -2,23 +2,13 @@
 
 }
 
-.nav--primary--toggle,
-.nav--primary--toggle:visited {
-	background-color: $brand-primary;
-	display: block;
-	padding: .8em;
-	text-align: center;
-	text-decoration: none;
-
-	&:hover {
-		background-color: darken($brand-primary, 10%);
-	}
-
-}
-
 .nav--primary--links {
-	display: none;
-	padding: 0 0 1px; // stop visual jump from slideIn
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 
 	li {
 
@@ -26,14 +16,24 @@
 
 	a,
 	a:visited {
+		color: $text-color;
+		font-weight: $bold;
+		line-height: 1.2;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover,
+		&:focus {
+			text-decoration: underline;
+		}
 
 	}
 
 }
 
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 37.5em) {
 
-	@import 'nav-primary_800';
+	@import 'nav-primary_600';
 
 }

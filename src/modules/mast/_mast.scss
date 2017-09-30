@@ -1,3 +1,27 @@
 .mast {
 	display: block;
+	padding: $strip-padding 0;
+
+	.wrap {
+
+	}
+
+}
+
+.logo {
+	display: block;
+	margin: 0 auto $strip-padding;
+	max-width: 18em;
+
+	svg {
+		display: block;
+	}
+
+}
+
+
+@media only screen and (min-width: 37.5em) {
+
+	@import 'mast_600';
+
 }

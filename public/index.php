@@ -10,7 +10,7 @@
 
         <h1 class="content--title">Have we got the tubs for you!</h1>
 
-        <div class="">
+        <div class="banner--graphic">
             <?php
 
                 echo file_get_contents('library/images/svgs/crate.svg');
@@ -31,7 +31,7 @@
             <?php
 
                 $i		= 1;
-                $max	= 5;
+                $max	= 4;
 
                 while($i <= $max) :
 
@@ -40,7 +40,7 @@
                         $product_image_alt      = '#';
                         $product_image_url      = 'library/images/_tmp/img-prod-00' . $i . '.jpg';
                     }
-                    $product_name               = 'Product name here';
+                    $product_name               = 'Ton\'s Tub ' . $i;
                     $product_desc               = '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan, nibh et porttitor consectetur, massa ligula sodales nulla, vel faucibus eros diam eu nisi. Vestibulum nec sapien vel leo vestibulum lobortis. Nam dui neque, lobortis non sagittis nec, venenatis at libero. Sed at libero libero.</p>';
                     $product_url                = '/product-page.php';
 

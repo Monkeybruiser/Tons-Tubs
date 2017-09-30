@@ -1,11 +1,7 @@
 .banner {
 	display: block;
+	padding: $strip-padding 0;
 	position: relative;
-}
-
-.content--title {
-	font-family: $fancy;
-	font-size: 4em;
 }
 
 .content--title {
@@ -15,5 +11,25 @@
     background-position: center;
     background-attachment: fixed;
     color: $text-color;
+	font-family: $fancy;
+	font-size: 4em;
     text-align: center;
+}
+
+.banner--graphic {
+	margin: 0 auto;
+	max-width: 26em;
+}
+
+
+@media only screen and (min-width: 43.75em) {
+
+	@import 'banner_700';
+
+}
+
+@media only screen and (min-width: 62.5em) {
+
+	@import 'banner_1000';
+
 }

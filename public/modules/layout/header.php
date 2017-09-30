@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js">
     <head>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Ton's Tubs</title>
@@ -23,15 +23,19 @@
                 <div class="wrap">
 
                     <div class="logo">
-                        <img alt="#" class="" src="http://placehold.it/70x70" />
+                        <?php
+
+                            echo file_get_contents('library/images/svgs/logo.svg');
+
+                        ?>
                     </div>
 
-                    <nav>
-                        <ul>
-                            <li><a href="#" title="#">Home</a></li>
-                            <li><a href="#" title="#">One</a></li>
-                            <li><a href="#" title="#">Two</a></li>
-                            <li><a href="#" title="#">Three</a></li>
+                    <nav class="nav--primary">
+                        <ul class="nav--primary--links">
+                            <li><a href="/" title="#">Home</a></li>
+                            <li><a href="#" title="#">Our Tubs</a></li>
+                            <li><a href="#" title="#">About Ton's Tubs</a></li>
+                            <li><a href="#" title="#">Contact</a></li>
                         </ul>
                     </nav>
 
